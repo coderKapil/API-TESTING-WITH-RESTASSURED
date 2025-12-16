@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-15T19:19:28 IST" name="Default suite" finished-at="2025-12-15T19:19:30 IST" duration-ms="2137">
+  <suite started-at="2025-12-16T20:17:54 IST" name="Default suite" finished-at="2025-12-16T20:17:58 IST" duration-ms="3303">
     <groups>
     </groups>
-    <test started-at="2025-12-15T19:19:28 IST" name="Default test" finished-at="2025-12-15T19:19:30 IST" duration-ms="2137">
-      <class name="day4.ParsingJsonResponseData">
-        <test-method signature="testJsonResponseBody()[pri:2, instance:day4.ParsingJsonResponseData@765d7657]" started-at="2025-12-15T19:19:28 IST" name="testJsonResponseBody" finished-at="2025-12-15T19:19:30 IST" duration-ms="2092" status="PASS">
+    <test started-at="2025-12-16T20:17:54 IST" name="Default test" finished-at="2025-12-16T20:17:58 IST" duration-ms="3303">
+      <class name="day5.FileUploadAndDownload">
+        <test-method signature="fileDownload()[pri:0, instance:day5.FileUploadAndDownload@765d7657]" started-at="2025-12-16T20:17:55 IST" name="fileDownload" finished-at="2025-12-16T20:17:57 IST" duration-ms="2039" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJsonResponseBody -->
-      </class> <!-- day4.ParsingJsonResponseData -->
+        </test-method> <!-- fileDownload -->
+        <test-method signature="singleFileUpload()[pri:1, instance:day5.FileUploadAndDownload@765d7657]" started-at="2025-12-16T20:17:57 IST" name="singleFileUpload" finished-at="2025-12-16T20:17:58 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleFileUpload -->
+        <test-method signature="multipleFileUpload()[pri:2, instance:day5.FileUploadAndDownload@765d7657]" started-at="2025-12-16T20:17:58 IST" name="multipleFileUpload" finished-at="2025-12-16T20:17:58 IST" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleFileUpload -->
+      </class> <!-- day5.FileUploadAndDownload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

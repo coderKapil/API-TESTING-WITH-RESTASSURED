@@ -43,17 +43,39 @@ public class ParsingJsonResponseData {
 	@Test(priority=2)
 	void testJsonResponseBody() {
 		
-		//Approach 2
+		//Approach 3
 		
 		Response res = given().contentType(ContentType.JSON)
 		.when().get("http://localhost:3000/books");
+ /*
+  This approach is helpful when your API response contains a JSON object that has
+   a JSON array inside it.
+   Example  
+   
+   {
+  "books": [
+    {
+      "id": "1",
+      "title": "Clean Code",
+      "author": "Robert C. Martin"
+    },
+    {
+      "id": "2",
+      "title": "Effective Java",
+      "author": "Joshua Bloch"
+    }
+  ]
+}
 
+  */
 		//JSONObject JSONObject jo = new JSONObject(res.toString());
 		//converting response to json object type 
 //		for(int i=0; i<jo.getJSONArray("books").length(); i++) { 
 //			String bookTitle = jo.getJSONArray("books").getJSONObject(i).get("title").toString();
 //			System.out.println(bookTitle); 
 //			}
+		
+
 		    // Step 1: Convert response body to JSONArray
 		    JSONArray jsonArray = new JSONArray(res.asString());
 //Search for title of the book in JSON
