@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-18T19:17:14 IST" name="Default suite" finished-at="2025-12-18T19:17:15 IST" duration-ms="331">
+  <suite started-at="2025-12-18T20:17:15 IST" name="Default suite" finished-at="2025-12-18T20:17:21 IST" duration-ms="5989">
     <groups>
     </groups>
-    <test started-at="2025-12-18T19:17:14 IST" name="Default test" finished-at="2025-12-18T19:17:15 IST" duration-ms="331">
-      <class name="day7.FakerDataGenerator">
-        <test-method signature="testGenerateDummyData()[pri:0, instance:day7.FakerDataGenerator@2b71e916]" started-at="2025-12-18T19:17:14 IST" name="testGenerateDummyData" finished-at="2025-12-18T19:17:15 IST" duration-ms="275" status="PASS">
+    <test started-at="2025-12-18T20:17:15 IST" name="Default test" finished-at="2025-12-18T20:17:21 IST" duration-ms="5989">
+      <class name="day7.Authentications">
+        <test-method signature="testPreemptiveAuthentication()[pri:3, instance:day7.Authentications@2b71e916]" started-at="2025-12-18T20:17:15 IST" name="testPreemptiveAuthentication" finished-at="2025-12-18T20:17:20 IST" duration-ms="4602" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGenerateDummyData -->
-      </class> <!-- day7.FakerDataGenerator -->
+        </test-method> <!-- testPreemptiveAuthentication -->
+        <test-method signature="bearerTokenAuthentication()[pri:4, instance:day7.Authentications@2b71e916]" started-at="2025-12-18T20:17:20 IST" name="bearerTokenAuthentication" finished-at="2025-12-18T20:17:21 IST" duration-ms="1080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bearerTokenAuthentication -->
+        <test-method signature="testApiKeyAuthentication()[pri:7, instance:day7.Authentications@2b71e916]" started-at="2025-12-18T20:17:21 IST" name="testApiKeyAuthentication" finished-at="2025-12-18T20:17:21 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiKeyAuthentication -->
+      </class> <!-- day7.Authentications -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
