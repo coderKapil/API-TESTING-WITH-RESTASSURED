@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-17T20:05:44 IST" name="Default suite" finished-at="2025-12-17T20:05:45 IST" duration-ms="368">
+  <suite started-at="2025-12-18T19:17:14 IST" name="Default suite" finished-at="2025-12-18T19:17:15 IST" duration-ms="331">
     <groups>
     </groups>
-    <test started-at="2025-12-17T20:05:44 IST" name="Default test" finished-at="2025-12-17T20:05:45 IST" duration-ms="368">
-      <class name="day6.SerializationDeserialization">
-        <test-method signature="convertJsonToPojo()[pri:0, instance:day6.SerializationDeserialization@62379589]" started-at="2025-12-17T20:05:44 IST" name="convertJsonToPojo" finished-at="2025-12-17T20:05:45 IST" duration-ms="309" status="PASS">
+    <test started-at="2025-12-18T19:17:14 IST" name="Default test" finished-at="2025-12-18T19:17:15 IST" duration-ms="331">
+      <class name="day7.FakerDataGenerator">
+        <test-method signature="testGenerateDummyData()[pri:0, instance:day7.FakerDataGenerator@2b71e916]" started-at="2025-12-18T19:17:14 IST" name="testGenerateDummyData" finished-at="2025-12-18T19:17:15 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- convertJsonToPojo -->
-      </class> <!-- day6.SerializationDeserialization -->
+        </test-method> <!-- testGenerateDummyData -->
+      </class> <!-- day7.FakerDataGenerator -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
